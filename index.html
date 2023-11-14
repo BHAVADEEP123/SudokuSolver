@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku Grid</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>
+            Sudoku Solver
+        </h1>
+    </div>
+    <div class="main-container">
+        <div class="sudoku-container">
+            <div class="row-box">
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+            </div>
+            <div class="row-box">
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+            </div>
+            <div class="row-box">
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+                <div class="box">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <br>
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                    <input type="number" min="1" max="9" maxlength="1" class="small-input">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
